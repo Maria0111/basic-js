@@ -1,4 +1,4 @@
-const { NotImplementedError } = require('../extensions/index.js');
+const { NotImplementedError } = require('../extensions/index.js')
 
 /**
  * In the popular Minesweeper game you have a board with some mines and those cells
@@ -23,7 +23,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  *  [1, 1, 1]
  * ]
  */
- function minesweeper(matrix) {
+function minesweeper(matrix) {
   const resultMatrix = JSON.parse(JSON.stringify(matrix))
 
   const countMines = (x, y) => {
