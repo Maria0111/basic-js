@@ -29,5 +29,5 @@ function dateSample(sampleActivity) {
 }
 
 module.exports = {
-  dateSample
-};
+  dateSample,
+}

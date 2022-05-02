@@ -22,5 +22,5 @@ const { NotImplementedError } = require('../extensions/index.js');
 }
 
 module.exports = {
-  getSumOfDigits
-};
+  getSumOfDigits,
+}

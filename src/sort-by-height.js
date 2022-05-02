@@ -19,5 +19,5 @@ return arr.map((value) => (value >= 0 ? sorted.shift() : -1))
 }
 
 module.exports = {
-  sortByHeight
-};
+  sortByHeight,
+}
